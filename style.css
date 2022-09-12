@@ -88,10 +88,9 @@ h3{
 
 .contenedor-productos{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    margin: 40px;
-
+    align-items: center;
+    margin: 30px;
 }
 
 .btn-comprar{
@@ -143,14 +142,6 @@ footer{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/*PAGINA GAMING*/
-.contenedor-productos-gaming{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 30px;
-}
-
 .volver{
     display: flex;
     justify-content: center;
@@ -166,9 +157,4 @@ footer{
 
 }
 
-.contenedor-productos2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 30px;
-}
+
